@@ -2,25 +2,57 @@
 
 # team member roles
 
-pi:
-  icon: fa-solid fa-microscope
-  description: Principal Investigator
+lead:
+  #icon: fa-solid fa-microscope
+  description: Group Leader, Professor
+
+supervisor:
+  # icon: fa-solid fa-microscope
+  description: Supervisor
+
+associate:
+  # icon: fa-solid fa-microscope
+  description: Associate Professor
 
 postdoc:
-  icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  # icon: fa-solid fa-graduation-cap
+  description: Postdoc Research Fellow
+
+scientist:
+  # icon: fa-solid fa-user
+  description: Research Scientist
+
+alumni:
+  # icon: fa-solid fa-code
+  description: Alumni
 
 phd:
-  icon: fa-solid fa-graduation-cap
+  # icon: fa-solid fa-glasses
   description: PhD Student
 
+assistant:
+  # icon: fa-solid fa-user
+  description: Research Assistant
+
+staff: 
+  # icon: fa-solid fa-user
+  description: Research Staff
+
+master:
+  # icon: fa-solid fa-user
+  description: Master Student
+
+intern:
+  # icon: fa-solid fa-user-graduate
+  description: Intern Student
+
 undergrad:
-  icon: fa-solid fa-user-graduate
+  # icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
+external-member:
+  # icon: fa-solid fa-user
+  description: External Collaborator
 
 mascot:
   icon: fa-solid fa-dog
@@ -187,12 +219,12 @@ manubot:
 
 docs:
   icon: fa-solid fa-book
-  text: Documentation
-  tooltip: Documentation
+  text: Documents
+  tooltip: Documents
 
 source:
-  icon: fa-solid fa-code
-  text: Source
+  icon: fa-solid fa-brands fa-github
+  text: Source Code
   tooltip: Source code
 
 server:

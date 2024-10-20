@@ -1,6 +1,8 @@
 {% assign filename = page.path | split: "/" | last %}
 {% if page.name and page.name != filename %}
   {% assign title = page.name %}
+{% elsif page.short_title %}
+  {% assign title = page.short_title %}
 {% elsif page.title %}
   {% assign title = page.title %}
 {% else %}
@@ -8,6 +10,15 @@
 {% endif %}
 
 {% assign fulltitle = "" | split: "," %}
+{% if page.short_title %}
+  {% assign fulltitle = fulltitle | push: page.short_title %}
+{% endif %}
+{% if short_title %}
+  {% assign fulltitle = fulltitle | push: short_title %}
+{% endif %}
+{% if site.short_title %}
+  {% assign fulltitle = fulltitle | push: site.short_title %}
+{% endif %}
 {% if title %}
   {% assign fulltitle = fulltitle | push: title %}
 {% endif %}
@@ -28,12 +39,12 @@
   {{ site.url }}{{ site.baseurl }}
 {%- endcapture %}
 
-{% assign png = "images/icon.png" | file_exists %}
-{% assign jpg = "images/icon.jpg" | file_exists %}
+{% assign png = "images/logos/ielab-page001.png" | file_exists %}
+{% assign jpg = "images/logos/ielab-page001.png.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
 
-{% assign jpg = "images/share.jpg" | file_exists %}
-{% assign png = "images/share.png" | file_exists %}
+{% assign jpg = "images/logos/ielab-page001.png" | file_exists %}
+{% assign png = "images/logos/ielab-page001.png" | file_exists %}
 {% assign share = jpg | default: png | relative_url %}
 
 {% assign published = page.date | date_to_xmlschema %}

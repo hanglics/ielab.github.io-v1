@@ -34,4 +34,5 @@ ${DOCKER_RUN} ${PLATFORM} \
     --publish 4000:4000 \
     --publish 35729:35729 \
     --volume "${WORKING_DIR}:/usr/src/app" \
+    -e GOOGLE_SCHOLAR_API_KEY=4ab81d113aa8071cd50a46065d6b560e1704913dc39fdee3f66d488bce4f5199 \
     ${IMAGE} "$@"

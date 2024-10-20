@@ -163,11 +163,11 @@ Section, `size=full` w/ figure
 
 ## Figure
 
-{% include figure.html image="images/icon.png" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**." %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `px` width" width="400px" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `%` width" link="team" width="50%" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `px` height" link="team" height="200px" %}
+{% include figure.html image="images/logos/ielab-page001.png" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="_Lorem_ **ipsum**." %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="_Lorem_ **ipsum**. `px` width" width="400px" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="_Lorem_ **ipsum**. `%` width" link="team" width="50%" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="_Lorem_ **ipsum**. `px` height" link="team" height="200px" %}
 {% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `px` width, svg" link="team" width="400px" %}
 {% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `%` width, svg" link="team" width="50%" %}
 {% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `px` height, svg" link="team" height="200px" %}
@@ -193,7 +193,7 @@ Section, `size=full` w/ figure
 
 {% include icon.html icon="fa-brands fa-github" %} Lorem
 {% include icon.html icon="fa-solid fa-microscope" %} Ipsum
-{% include icon.html icon="manubot.svg" %} Dolor
+{% include icon.html icon="logos/ielab-page001.png" %} Dolor
 
 {% include section.html %}
 
@@ -202,8 +202,8 @@ Section, `size=full` w/ figure
 {% capture text %}
 _Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture%}
-{% include feature.html image="images/icon.png" link="team" title="Title" text=text %}
-{% include feature.html image="images/icon.png" title="Title" text=text flip=true %}
+{% include feature.html image="images/logos/ielab-page001.png" link="team" title="Title" text=text %}
+{% include feature.html image="images/logos/ielab-page001.png" title="Title" text=text flip=true %}
 {% include feature.html link="team" %}
 
 {% include section.html %}
@@ -244,8 +244,8 @@ _Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 
 ## Card
 
-{% include card.html image="images/icon.png" link="https://nasa.gov/" title="A Large Card" subtitle="A cool card" description="A cool description" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" %}
-{% include card.html image="images/icon.png" title="A Small Card" subtitle="A cool card" description="_Lorem_ **ipsum**" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" style="small" %}
+{% include card.html image="images/logos/ielab-page001.png" link="https://nasa.gov/" title="A Large Card" subtitle="A cool card" description="A cool description" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" %}
+{% include card.html image="images/logos/ielab-page001.png" title="A Small Card" subtitle="A cool card" description="_Lorem_ **ipsum**" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" style="small" %}
 
 {% include section.html %}
 
@@ -296,7 +296,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Figures
 
 {% capture content %}
-{% include figure.html image="images/icon.png" caption="Caption" width="200px" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="Caption" width="200px" %}
 {% endcapture %}
 {% include float.html content=content %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -329,11 +329,11 @@ With Markdown images
 
 ![image](https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp)
 
-![image]({{ "/images/icon.png" | relative_url }})
+![image]({{ "/images/logos/ielab-page001.png" | relative_url }})
 
-![image]({{ "/images/icon.png" | relative_url }})
+![image]({{ "/images/logos/ielab-page001.png" | relative_url }})
 
-![image]({{ "/images/icon.png" | relative_url }})
+![image]({{ "/images/logos/ielab-page001.png" | relative_url }})
 {% endcapture %}
 {% include grid.html content=content %}
 
@@ -345,9 +345,9 @@ With figure components
 {% include figure.html image="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2" %}
 {% include figure.html image="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" %}
 {% include figure.html image="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" %}
-{% include figure.html image="images/icon.png" %}
-{% include figure.html image="images/icon.png" %}
-{% include figure.html image="images/icon.png" %}
+{% include figure.html image="images/logos/ielab-page001.png" %}
+{% include figure.html image="images/logos/ielab-page001.png" %}
+{% include figure.html image="images/logos/ielab-page001.png" %}
 {% endcapture %}
 {% include grid.html style="square" content=content %}
 
@@ -385,15 +385,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Images
 
 {% capture col1 %}
-{% include figure.html image="images/icon.png" caption="Fig. 1a" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="Fig. 1a" %}
 Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture %}
 {% capture col2 %}
-{% include figure.html image="images/icon.png" caption="Fig. 1b" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="Fig. 1b" %}
 Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture %}
 {% capture col3 %}
-{% include figure.html image="images/icon.png" caption="Fig. 1c" %}
+{% include figure.html image="images/logos/ielab-page001.png" caption="Fig. 1c" %}
 Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endcapture %}
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

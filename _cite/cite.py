@@ -131,10 +131,17 @@ for index, source in enumerate(sources):
     # new citation data for source
     citation = {}
 
+    # get tag see if it is from Google Scholar
+    tag = get_safe(source, "tag", "")
+
     # source id
-    _id = get_safe(source, "id", "").strip()
+    if tag == "google-scholar":
+        _id = get_safe(source, "link", "").strip()
+    else:
+        _id = get_safe(source, "id", "").strip()
 
     # Manubot doesn't work without an id
+    # Now it seems only work with Google Scholar links
     if _id:
         log("Using Manubot to generate citation", 1)
 

@@ -1,0 +1,51 @@
+{{ " " }}
+
+<div class="citation-container">
+  <div class="citation">
+    {% if include.style == "rich" %}
+      <a
+        {% if project.link %}
+          href="{{ include.link | relative_url }}"
+        {% endif %}
+        class="citation-image"
+        aria-label="{{ include.title | default: "project link" }}"
+      >
+        <img
+          src="{{ include.image | relative_url }}"
+          alt="{{ include.title | default: "project image" }}"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    {% endif %}
+
+    <div class="citation-text">
+      <a
+        {% if include.link %}
+          href="{{ include.link | relative_url }}"
+        {% endif %}
+        class="citation-title"
+      >
+        {{ include.title | default: "" }}
+      </a>
+
+      <div class="citation-details">
+        <span class="citation-publisher">
+          <i>{{- include.subtitle | default: "" -}}</i>
+        </span>
+        <br>
+        <span class="citation-publisher">
+          {{- include.members | join: ", " ｜ | default: "" -}}
+        </span>
+        <br>
+        <span class="citation-publisher">
+          {{- include.funding | default: "" -}}
+        </span>
+      </div>
+
+      {% if include.tags.size > 0 or include.repo %}
+        {% include tags.html tags=include.tags repo=include.repo %}
+      {% endif %}
+    </div>
+  </div>
+</div>

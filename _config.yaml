@@ -1,19 +1,20 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: The Information Engineering Lab
+short_title: ielab.io
+subtitle: IELab @ UQ | The University of Queensland
+description: The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of information retrieval, i.e. search engine technology and information seeking, data science, and health informatics.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  # email: contact@your-lab.com
+  # orcid: 
+  # google-scholar: 
+  github: ielab
+  twitter: IELabGroup
+  youtube: ielab3142
 
 ### jekyll settings
 
@@ -29,18 +30,29 @@ defaults:
       type: "members"
     values:
       layout: member
-  # markdown files in /_posts
+  # markdown files in /_grants
   - scope:
-      type: "posts"
+      type: "grants"
     values:
-      layout: post
+      layout: grant
+  # markdown files in /_tutorials
+  - scope:
+      type: "tutorials"
+    values:
+      layout: tutorial
 
 collections:
   # generate page for each member
   members:
     output: true
-  # generate page for each post
-  posts:
+  # generate page for each grant
+  grants:
+    output: true
+  # generate page for each tutorial
+  tutorials:
+    output: true
+  # generate page for each project
+  projects:
     output: true
 
 # jekyll plugins

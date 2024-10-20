@@ -2,26 +2,23 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Research, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The ielab works on a diversity of research projects in the fields of information retrieval, data science, and health informatics. Research strengths include:
 
-{% include tags.html tags="publication, resource, website" %}
+- <b>Formal models of Information Retrieval</b>: retrieval models, learning to rank, deep learning, user models, evaluation of information retrieval systems.
+- <b>Health Search and Health Data Science</b>: models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
+- <b>Domain-specific search</b>: case law retrieval.
+
+{% include section.html %}
+
+## All Projects
+
+{% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filters="group: featured" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="project" data="projects" style="rich" %}

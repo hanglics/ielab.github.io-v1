@@ -18,7 +18,7 @@ def main(entry):
     params = {
         "engine": "google_scholar_author",
         "api_key": api_key,
-        "num": 100,  # max allowed
+        "num": 800,  # max allowed
     }
 
     # get id from entry
@@ -50,6 +50,7 @@ def main(entry):
             "publisher": get_safe(work, "publication", ""),
             "date": (year + "-01-01") if year else "",
             "link": get_safe(work, "link", ""),
+            "tag": "google-scholar",
         }
 
         # copy fields from entry to source

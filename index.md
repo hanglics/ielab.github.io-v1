@@ -1,30 +1,15 @@
 ---
 ---
 
-# Lab Website Template
+# The Information Engineering Lab
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
-
-{% include section.html %}
+The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search engine technology and information seeking, data science, and health informatics.
 
 ## Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<b>Formal models of Information Retrieval</b>: retrieval models, learning to rank, deep learning, user models, information retrieval system evaluation. <b>Health Search and Health Data Science</b>: models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials. <b>Domain-specific search</b>: case law retrieval.
 
 {%
   include button.html
@@ -39,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.png"
   link="research"
   title="Our Research"
   text=text
@@ -47,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The ielab works on a diversity of research projects in the fields of <b>information retrieval</b>, <b>data science</b>, and <b>health informatics</b>. Research strengths includes: Formal models of Information Retrieval, Health Search and Health Data Science, Domain-specific search: case law retrieval.
 
 {%
   include button.html
@@ -62,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/project.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -72,7 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a big group, we publish papers in top-tier conferences and journals. We work hard, but we also play hard. If you are interested in information retrieval, we welcome you to come in and have a chat!
 
 {%
   include button.html
@@ -87,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/members/group2021.png"
   link="team"
   title="Our Team"
   text=text
