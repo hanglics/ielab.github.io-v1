@@ -41,8 +41,6 @@
   bing: true
 - id: 10.1145/3555214
   leif: true
-- id: 10.14264/812c680
-  rischan: true
 - id: 10.6028/nist.sp.1250.cast-ves
   leif: true
 - id: 10.1038/s41598-022-11792-7
@@ -113,8 +111,6 @@
   guido: true
   jimmy: true
   leif: true
-- id: 10.14264/uql.2020.888
-  anton: true
 - id: 10.1145/2838931.2838933
   joel: true
 - id: 10.1007/978-3-319-24315-3_9
@@ -719,8 +715,6 @@
   guido: true
   hang: true
   harry: true
-- id: 10.14264/ef208df
-  suresh: true
 - id: 10.1007/978-3-319-76941-7_16
   leif: true
 - id: 10.1145/3077136.3084374
@@ -1066,8 +1060,6 @@
 - id: 10.1109/ACCESS.2023.3283457
   guido: true
   rischan: true
-- id: https://doi.org/10.1016/j.compbiomed.2021.104249
-  suresh: true
 - id: https://doi.org/10.1007/s11036-020-01726-w
   hang: true
 - id: https://doi.org/10.1145/2701126.2701173
