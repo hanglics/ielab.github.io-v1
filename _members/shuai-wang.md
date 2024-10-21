@@ -8,7 +8,7 @@ project:
     - systematic-review-literature-search
 affiliation: UQ
 description: PhD Candidate
-link:
+links:
     - google-scholar: JDKYomkAAAAJ
     - home-page: https://wshuai190.github.io/
     - twitter: Wangshu79517824
