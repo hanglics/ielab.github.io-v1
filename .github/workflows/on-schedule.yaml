@@ -21,7 +21,7 @@ jobs:
     with:
       open-pr: true
 
-  build-preview:
+  build-site:
     needs: update-citations
     if: needs.update-citations.outputs.changed == 'true'
-    uses: ./.github/workflows/build-preview.yaml
+    uses: ./.github/workflows/build-site.yaml

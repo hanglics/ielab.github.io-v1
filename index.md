@@ -14,7 +14,7 @@ The ielab is a collaborative group of researchers working in the area of informa
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="SEE OUR PUBLICATIONS"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,7 +26,7 @@ The ielab is a collaborative group of researchers working in the area of informa
   include feature.html
   image="images/research.png"
   link="research"
-  title="Our Research"
+  title="OUR RESEARCH"
   text=text
 %}
 
@@ -37,7 +37,7 @@ The ielab works on a diversity of research projects in the fields of <b>informat
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="BROWSE OUR PROJECTS"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -49,7 +49,7 @@ The ielab works on a diversity of research projects in the fields of <b>informat
   include feature.html
   image="images/project.png"
   link="projects"
-  title="Our Projects"
+  title="OUR PROJECTS"
   flip=true
   style="bare"
   text=text
@@ -62,7 +62,7 @@ We are a big group, we publish papers in top-tier conferences and journals. We w
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="MEET OUR TEAM"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -74,6 +74,6 @@ We are a big group, we publish papers in top-tier conferences and journals. We w
   include feature.html
   image="images/members/group2021.png"
   link="team"
-  title="Our Team"
+  title="OUR TEAM"
   text=text
 %}

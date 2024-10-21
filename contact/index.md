@@ -2,7 +2,7 @@
 title: Connect
 nav:
   order: 6
-  tooltip: Connect with us!
+  tooltip: Connect with Us
 ---
 
 # {% include icon.html %}Connect with Us

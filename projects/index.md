@@ -2,7 +2,7 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Research, datasets, and more
+  tooltip: Research, Datasets, and More
 ---
 
 # {% include icon.html %}Projects
