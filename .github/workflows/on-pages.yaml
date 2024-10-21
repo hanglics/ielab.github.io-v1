@@ -16,11 +16,6 @@ permissions:
   contents: write
 
 jobs:
-  update-url:
-    # only run on user instance of template, not template itself
-    if: github.repository != 'ielab/ielab.github.io'
-    uses: ./.github/workflows/update-url.yaml
-
   build-site:
     needs: update-url
     if: needs.update-url.outputs.changed == 'true'
