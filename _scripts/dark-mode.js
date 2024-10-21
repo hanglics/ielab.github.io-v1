@@ -3,9 +3,27 @@
 */
 
 {
+  // check if user has set a preference for dark mode
+  function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+    if (localStorageTheme !== null) {
+      return localStorageTheme;
+    }
+  
+    if (systemSettingDark.matches) {
+      return "dark";
+    }
+  
+    return "light";
+  }
+
+  const localStorageTheme = localStorage.getItem("theme");
+  const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+  let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
   // immediately load saved (or default) mode before page renders
   document.documentElement.dataset.dark =
-    window.localStorage.getItem("dark-mode") ?? "false";
+    currentThemeSetting === "dark" ? "true" : "false";
 
   const onLoad = () => {
     // update toggle button to match loaded mode
