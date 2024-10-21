@@ -7,7 +7,7 @@ project:
     - systematic-review-literature-search
 affiliation: UQ
 description: PhD Candidate
-link:
+links:
     google-scholar: QDGi7ksAAAAJ
     twitter: xinyu_max
     github: Shinyu-Mao

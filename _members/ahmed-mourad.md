@@ -3,8 +3,8 @@ name: Ahmed Mourad
 image: images/members/ahmed-mourad.jpg
 description: Postdoc Research Fellow
 affiliation: UQ
-role: postdoc
-group: postdoc
+role: alumni
+group: alumni
 project: 
   - agask
   - conversational-search
