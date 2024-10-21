@@ -16,19 +16,23 @@
     return "light";
   }
 
+  // immediately load saved (or default) mode before page renders
+
   const localStorageTheme = localStorage.getItem("theme");
   const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
-
   let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
 
-  // immediately load saved (or default) mode before page renders
-  document.documentElement.dataset.dark =
-    currentThemeSetting === "dark" ? "true" : "false";
+  let settingFlag = currentThemeSetting == "dark" ? "true" : "false";
 
+  document.documentElement.dataset.dark = settingFlag;
+  
   const onLoad = () => {
     // update toggle button to match loaded mode
-    document.querySelector(".dark-toggle").checked =
-      document.documentElement.dataset.dark === "true";
+    const localStorageTheme = localStorage.getItem("theme");
+    const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+    let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+    const settingFlag = currentThemeSetting == "dark" ? "true" : "false";
+    document.querySelector(".dark-toggle").checked = settingFlag;
   };
 
   // after page loads
