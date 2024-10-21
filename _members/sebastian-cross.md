@@ -8,3 +8,7 @@ project:
 affiliation: UQ
 description: PhD Candidate
 ---
+
+---
+
+{% include list.html data="citations" component="citation" filters="seb: true" %}
