@@ -32,26 +32,7 @@ jobs:
       # for debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
-
-      # update link to site in readme
-      - name: Update readme
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { readFileSync, writeFileSync } = require("fs");
-            const file = "README.md";
-            let contents = readFileSync(file).toString();
-            const find = /\*\*\[.*\]\(.*\)\*\*/;
-            const host = "${{ steps.pages.outputs.host }}";
-            const path = "${{ steps.pages.outputs.base_path }}";
-            const url = "${{ steps.pages.outputs.base_url }}";
-            const replace = `**[${host}${path}](${url})**`;
-            if (contents.match(find))
-              contents = contents.replace(find, replace);
-            else
-              contents = `Visit ${replace} 🚀\n\n` + contents;
-            writeFileSync(file, contents);
-
+      
       - name: Check if readme changed
         id: changed
         uses: tj-actions/verify-changed-files@v18

@@ -73,16 +73,6 @@ jobs:
           printf "USER=${user}" >> $GITHUB_ENV
           printf "DESCRIPTION=${description}" >> $GITHUB_ENV
 
-      - name: Personalize readme for user
-        run: |
-          printf "
-          # ${{ env.USER }}'s Website
-
-          Visit **[website url](#)** 🚀
-
-          _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
-          " > README.md
-
       - name: Personalize Jekyll config for user
         uses: actions/github-script@v7
         with:
