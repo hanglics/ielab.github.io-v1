@@ -290,17 +290,6 @@
   leif: true
   plugin: sources.py
   file: sources.yaml
-- id: 10.14264/812c680
-  title: 'Recommending data visualizations: tackling diversification and data quality
-    challenges'
-  authors:
-  - Rischan Mafrur
-  publisher: University of Queensland Library
-  date: ''
-  link: https://doi.org/g8njjf
-  rischan: true
-  plugin: sources.py
-  file: sources.yaml
 - id: 10.6028/nist.sp.1250.cast-ves
   title: VES Team at TREC Conversational Assistance Track (CAsT) 2019
   authors:
@@ -659,17 +648,6 @@
   guido: true
   jimmy: true
   leif: true
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.14264/uql.2020.888
-  title: 'Minimal interaction Information Retrieval: a theoretical framework with
-    applications in clinical decision support'
-  authors:
-  - Anton van der Vegt
-  publisher: University of Queensland Library
-  date: ''
-  link: https://doi.org/g8njj6
-  anton: true
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/2838931.2838933
@@ -3530,16 +3508,6 @@
   harry: true
   plugin: sources.py
   file: sources.yaml
-- id: 10.14264/ef208df
-  title: Electronic health record representation for similarity computing
-  authors:
-  - Suresh Pokharel
-  publisher: University of Queensland Library
-  date: ''
-  link: https://doi.org/g8njhz
-  suresh: true
-  plugin: sources.py
-  file: sources.yaml
 - id: 10.1007/978-3-319-76941-7_16
   title: Information Scent, Searching and Stopping
   authors:
@@ -5016,15 +4984,6 @@
   link: https://doi.org/g8nmqp
   guido: true
   rischan: true
-  plugin: sources.py
-  file: sources.yaml
-- id: https://doi.org/10.1016/j.compbiomed.2021.104249
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://doi.org/10.1016/j.compbiomed.2021.104249
-  suresh: true
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1007/s11036-020-01726-w
