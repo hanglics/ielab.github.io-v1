@@ -1,7 +1,7 @@
 ---
 name: Ahmed Mourad
 image: images/members/ahmed-mourad.jpg
-description: Postdoc Research Fellow
+description: Former Postdoc Research Fellow
 affiliation: UQ
 role: alumni
 group: alumni
