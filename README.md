@@ -1,6 +1,28 @@
 
-# hanglicsDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+<img src="images/logos/ielab-page001.png" width="120px" height="120px" style="float: right;">
 
-Visit **[website url](#)** 🚀
+# ielab website
 
-_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+welcome to the README file of the ielab website. This file will get you set up and running to develop the ielab website locally and explain how to add and edit content to the website.
+
+## Edit locally
+
+## Organisation of Website
+
+## Add a member
+
+## Add a publication
+
+## Add a project
+
+## Add a grant
+
+## Add a tutorial
+
+## Add other unrelated pages
+
+## Data files
+
+## Preview locally
+
+## Deploy and build

@@ -1,8 +1,8 @@
 # site properties and page defaults
-title: hanglicsDESCRIPTION=An engaging 1-3 sentence description of your lab.
+title: The Information Engineering Lab
 short_title: ielab.io
-subtitle: 
-description: 
+subtitle: IELab @ UQ | The University of Queensland
+description: The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of information retrieval, i.e. search engine technology and information seeking, data science, and health informatics.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -12,9 +12,9 @@ links:
   # email: contact@your-lab.com
   # orcid: 
   # google-scholar: 
-  github: hanglicsDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: hanglicsDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: hanglicsDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  github: ielab
+  twitter: ielabgroup
+  youtube: ielab3142
 
 ### jekyll settings
 
