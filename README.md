@@ -2,29 +2,25 @@
 
 welcome to the README file of the ielab website. This file will get you set up and running to develop the ielab website locally and explain how to add and edit content to the website.
 
-## Edit locally
-
 ## Organisation of Website
 
-## Add a member
+## Edit Locally
 
-## Add a publication
+## Add a Member
 
-## Add a project
+## Add a Publication
 
-## Add a grant
+## Add a Project
 
-## Add a tutorial
+## Add a Grant
 
-## Add other unrelated pages
+## Add a Tutorial
 
-## Data files
+## Add Other Unrelated Pages
 
-## Preview locally
+## Data Files
 
-## Deploy and build
+## Preview Locally
 
+## Deploy and Build
 
-## Website Adress
-
-Visit **[hangli.me/ielab.github.io-v1](http://hangli.me/ielab.github.io-v1)**
