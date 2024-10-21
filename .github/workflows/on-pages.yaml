@@ -15,6 +15,12 @@ on:
 permissions:
   contents: write
 
-jobs:
-  build-site:
-    uses: ./.github/workflows/build-site.yaml
+update-url:
+    # only run on user instance of template, not template itself
+    if: github.repository != 'hanglics/ielab.github.io-v1'
+    uses: ./.github/workflows/update-url.yaml
+
+build-site:
+  needs: update-url
+  if: needs.update-url.outputs.changed == 'true'
+  uses: ./.github/workflows/build-site.yaml
