@@ -9,10 +9,10 @@ project:
 affiliation: UQ
 description: PhD Candidate
 links:
-    - google-scholar: JDKYomkAAAAJ
-    - home-page: https://wshuai190.github.io/
-    - twitter: Wangshu79517824
-    - github: wshuai190
+    google-scholar: JDKYomkAAAAJ
+    home-page: https://wshuai190.github.io/
+    twitter: Wangshu79517824
+    github: wshuai190
 ---
 
 ---
