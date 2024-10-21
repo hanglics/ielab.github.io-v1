@@ -2057,7 +2057,7 @@
   guido: true
   bevan: true
   ahmed: true
-  sebastian: true
+  seb: true
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3471158.3472259
@@ -4194,7 +4194,7 @@
   link: https://doi.org/g8njtb
   guido: true
   ahmed: true
-  sebastian: true
+  seb: true
   plugin: sources.py
   file: sources.yaml
 - id: 10.1145/3406522.3446024
