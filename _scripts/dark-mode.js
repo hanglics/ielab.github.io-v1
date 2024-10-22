@@ -17,22 +17,24 @@
   }
 
   // immediately load saved (or default) mode before page renders
-
-  const localStorageTheme = localStorage.getItem("theme");
+  const localStorageTheme = localStorage.getItem("dark-mode");
   const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
-  let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+  const currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
 
-  let settingFlag = currentThemeSetting == "dark" ? "true" : "false";
-
-  document.documentElement.dataset.dark = settingFlag;
+  document.documentElement.dataset.dark = 
+    currentThemeSetting === "dark" ? "true" : "false"
   
+  // document.documentElement.dataset.dark =
+  // window.localStorage.getItem("dark-mode") ?? "false";
+
   const onLoad = () => {
     // update toggle button to match loaded mode
-    const localStorageTheme = localStorage.getItem("theme");
-    const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
-    let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
-    const settingFlag = currentThemeSetting == "dark" ? "true" : "false";
-    document.querySelector(".dark-toggle").checked = settingFlag;
+    document.querySelector(".dark-toggle").checked = 
+      document.documentElement.dataset.dark === "true";
+
+    // document.querySelector(".dark-toggle").checked =
+    //   document.documentElement.dataset.dark === "true";
+
   };
 
   // after page loads
