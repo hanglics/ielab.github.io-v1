@@ -609,6 +609,7 @@
 - id: 10.1007/978-3-030-63007-2_33
   linh: true
 - id: 10.1145/3626772.3657674
+  kim: true
   guido: true
   arvin: true
   katya: true
@@ -1106,3 +1107,13 @@
   arvin: true
   bevan: true
   guido: true
+- id: 10.1007/s10791-012-9206-z
+  guido: true
+  kim: true
+  leif: true
+- id: 10.1007/978-3-642-23318-0_32
+  guido: true
+  kim: true
+- id: 10.1145/2396761.2398550
+  guido: true
+  kim: true

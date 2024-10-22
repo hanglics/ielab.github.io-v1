@@ -3065,6 +3065,7 @@
     and Development in Information Retrieval
   date: '2024-07-10'
   link: https://doi.org/g8njqt
+  kim: true
   guido: true
   arvin: true
   katya: true
@@ -5172,5 +5173,51 @@
   arvin: true
   bevan: true
   guido: true
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1007/s10791-012-9206-z
+  title: 'Crowdsourcing interactions: using crowdsourcing for evaluating interactive
+    information retrieval systems'
+  authors:
+  - Guido Zuccon
+  - Teerapong Leelanupab
+  - Stewart Whiting
+  - Emine Yilmaz
+  - Joemon M. Jose
+  - Leif Azzopardi
+  publisher: Information Retrieval
+  date: '2012-07-13'
+  link: https://doi.org/g8npzd
+  guido: true
+  kim: true
+  leif: true
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1007/978-3-642-23318-0_32
+  title: A Query-Basis Approach to Parametrizing Novelty-Biased Cumulative Gain
+  authors:
+  - Teerapong Leelanupab
+  - Guido Zuccon
+  - Joemon M. Jose
+  publisher: Lecture Notes in Computer Science
+  date: '2011-01-01'
+  link: https://doi.org/fszfvz
+  guido: true
+  kim: true
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1145/2396761.2398550
+  title: A comprehensive analysis of parameter settings for novelty-biased cumulative
+    gain
+  authors:
+  - Teerapong Leelanupab
+  - Guido Zuccon
+  - Joemon M. Jose
+  publisher: Proceedings of the 21st ACM international conference on Information and
+    knowledge management
+  date: '2012-10-29'
+  link: https://doi.org/g8npzf
+  guido: true
+  kim: true
   plugin: sources.py
   file: sources.yaml
