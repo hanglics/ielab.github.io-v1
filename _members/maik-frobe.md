@@ -1,8 +1,8 @@
 ---
 name: Maik Fröbe
 image: images/members/maik.png
-role: alumni
-group: alumni
+role: past-visiting-student
+group: past-visiting-student
 affiliation: UQ, Friedrich-Schiller-Universität Jena
 description: Former Visiting PhD Student
 links:

@@ -54,6 +54,10 @@ external-member:
   # icon: fa-solid fa-user
   description: External Collaborator
 
+past-visiting-student:
+  # icon: fa-solid fa-user
+  description: Past Visiting Students
+
 mascot:
   icon: fa-solid fa-dog
   description: Mascot

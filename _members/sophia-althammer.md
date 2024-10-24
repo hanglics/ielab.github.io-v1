@@ -1,8 +1,8 @@
 ---
 name: Sophia Althammer
 image: images/members/sophia.jpeg
-role: external-member
-group: external-member
+role: past-visiting-student
+group: past-visiting-student
 affiliation: UQ, TU Vienna
 description: Postdoc Research Fellow
 links:
