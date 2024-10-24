@@ -28,3 +28,7 @@ welcome to the README file of the ielab website. This file will get you set up a
 
 ## TODO:
 - Make google scholar auto update publications work, currently based on source.yaml, have to crawl the data periodically outside the system. (And google scholar API has a 100 time limit each month)
+
+## Website Address
+
+Visit **[hangli.me/ielab.github.io-v1](http://hangli.me/ielab.github.io-v1)**
