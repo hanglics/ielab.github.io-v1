@@ -6,9 +6,7 @@ nav:
 ---
 
 {% include section.html %}
-# Group Leader
-{% include list.html data="members" component="portrait" filters="role: lead" %}
-# Supervisors
+# Academic Staff
 {% include list.html data="members" component="portrait" filters="role: supervisor" %}
 # Current PhD Students
 {% include list.html data="members" component="portrait" filters="role: phd" %}
@@ -18,10 +16,6 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: assistant" %}
 # External Collaborators
 {% include list.html data="members" component="portrait" filters="role: external-member" %}
-# Past Visiting Students
-{% include list.html data="members" component="portrait" filters="role: past-visiting-student" %}
-# Master Students
-{% include list.html data="members" component="portrait" filters="role: master" %}
 # Alumnus
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
 

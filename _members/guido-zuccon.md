@@ -1,7 +1,8 @@
 ---
 name: Guido Zuccon
 image: images/members/guido-zuccon-scaled.jpg
-role: lead
+description: Professor, Group Leader
+role: supervisor
 affiliation: UQ
 group: professors
 project:

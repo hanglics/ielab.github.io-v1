@@ -1,7 +1,7 @@
 ---
 name: Shuoqi Sun (Thomas)
 image: images/members/shuoqi-sun.jpg
-role: master
+role: alumni
 group: master
 affiliation: UQ
 description: Past Master Student (Intern @ IELab)

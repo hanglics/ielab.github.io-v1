@@ -1,7 +1,7 @@
 ---
 name: Ferdinand Schlatt
 image: images/members/ferdinand.png
-role: past-visiting-student
+role: alumni
 group: past-visiting-student
 affiliation: UQ, Friedrich-Schiller-Universität Jena
 description: Former Visiting PhD Student
