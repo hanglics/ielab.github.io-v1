@@ -1,7 +1,7 @@
 ---
 name: Wojciech Kusa
 image: images/members/wojciech.jpg
-role: past-visiting-student
+role: alumni
 group: past-visiting-student
 affiliation: UQ, TU Vienna, Allegro ML Research
 description: Senior Research Engineer
