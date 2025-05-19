@@ -11,20 +11,20 @@ nav:
   include button.html
   type="github"
   text="GitHub"
-  link="https://github.com/ielab"
+  link="ielab"
 %}
 {%
   include button.html
   type="twitter"
   text="Twitter"
-  link="http://twitter.com/ielabgroup"
+  link="ielabgroup"
 %}
 
 {%
   include button.html
   type="youtube"
   text="Youtube"
-  link="http://youtube.com/ielab3142"
+  link="ielab3142"
 %}
 
 {% include section.html %}
