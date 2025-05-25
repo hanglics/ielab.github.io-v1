@@ -1037,6 +1037,7 @@
 - id: 10.38023/e77f5f7d-98c2-4759-a036-b1539bc4a8ae
   title: 'Making sense of Trifles: Data Narratives and Cumulative Data Disclosure'
   authors:
+  - Leif Azzopardi
   - Callum Nash
   - Dan Carey
   - Emma Nicol
@@ -1044,7 +1045,6 @@
   - Burkhard Schafer
   - Jo Briggs
   - Wendy Moncur
-  - Leif Azzopardi
   publisher: Jusletter-IT
   date: '2022-01-01'
   link: https://doi.org/g8njkz
@@ -4228,7 +4228,7 @@
   - Blanca Gallego Luxan
   - David Bunker
   - Douglas Boyle
-  publisher: Research Square Platform LLC
+  publisher: Springer Science and Business Media LLC
   date: '2023-10-27'
   link: https://doi.org/g8njtd
   anton: true
@@ -4634,13 +4634,13 @@
   title: 'TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient
     and Effective Retrieval'
   authors:
-  - Chuting Yu
   - Hang Li
+  - Chuting Yu
   - Ahmed Mourad
   - Bevan Koopman
   - Guido Zuccon
   publisher: arXiv
-  date: '2024-01-24'
+  date: '2024-12-06'
   link: http://arxiv.org/abs/2401.13509
   hang: true
   guido: true
@@ -4649,14 +4649,14 @@
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1145/3404835.3462781
-  title: 'Big Brother: A Drop-In Website Interaction Logging Service'
+  title: <i>Big Brother:</i> A Drop-In Website Interaction Logging Service
   authors:
   - Harrisen Scells
   - Guido Zuccon
   publisher: Proceedings of the 44th International ACM SIGIR Conference on Research
     and Development in Information Retrieval
   date: '2021-07-11'
-  link: https://doi.org/10.1145/3404835.3462781
+  link: https://dl.acm.org/doi/10.1145/3404835.3462781
   guido: true
   jimmy: true
   harry: true
@@ -4793,7 +4793,7 @@
   - Jimmy Lin
   - Guido Zuccon
   publisher: arXiv
-  date: '2024-06-18'
+  date: '2024-10-22'
   link: https://arxiv.org/abs/2404.18424
   arvin: true
   bevan: true
@@ -4889,7 +4889,7 @@
   - Martin Potthast
   - Matthias Hagen
   publisher: arXiv
-  date: '2024-06-18'
+  date: '2025-04-08'
   link: https://arxiv.org/abs/2404.06912
   harry: true
   arvin: true
@@ -4905,7 +4905,7 @@
   - Shuai Wang
   - Guido Zuccon
   publisher: arXiv
-  date: '2024-06-21'
+  date: '2025-01-27'
   link: https://arxiv.org/abs/2406.14117
   arvin: true
   dylan: true
@@ -4920,14 +4920,14 @@
   - "Herv\xE9 D\xE9jean"
   - "St\xE9phane Clinchant"
   publisher: arXiv
-  date: '2024-07-24'
+  date: '2024-10-30'
   link: https://arxiv.org/abs/2407.09252
   dylan: true
   plugin: sources.py
   file: sources.yaml
 - id: arXiv:2405.07920
-  title: A Systematic Investigation of Distilling Large Language Models into Cross-Encoders
-    for Passage Re-ranking
+  title: 'Rank-DistiLLM: Closing the Effectiveness Gap Between Cross-Encoders and
+    LLMs for Passage Re-Ranking'
   authors:
   - Ferdinand Schlatt
   - "Maik Fr\xF6be"
@@ -4939,7 +4939,7 @@
   - Martin Potthast
   - Matthias Hagen
   publisher: arXiv
-  date: '2024-06-18'
+  date: '2025-04-08'
   link: https://arxiv.org/abs/2405.07920
   harry: true
   arvin: true
@@ -5011,7 +5011,7 @@
   publisher: Proceedings of the 9th International Conference on Ubiquitous Information
     Management and Communication
   date: '2015-01-08'
-  link: https://doi.org/10.1145/2701126.2701173
+  link: https://dl.acm.org/doi/10.1145/2701126.2701173
   rischan: true
   plugin: sources.py
   file: sources.yaml
@@ -5037,9 +5037,9 @@
   - Joel Mackenzie
   - Alistair Moffat
   - J. Shane Culpepper
-  publisher: ACM Trans. Inf. Syst.
-  date: '2019-10-04'
-  link: https://doi.org/10.1145/3345001
+  publisher: ACM Transactions on Information Systems
+  date: '2019-10-31'
+  link: https://dl.acm.org/doi/10.1145/3345001
   joel: true
   plugin: sources.py
   file: sources.yaml
@@ -5067,7 +5067,7 @@
   - Martin Potthast
   - Harrisen Scells
   publisher: arXiv
-  date: '2024-08-19'
+  date: '2025-01-17'
   link: http://arxiv.org/abs/2408.09831
   harry: true
   plugin: sources.py
@@ -5098,7 +5098,7 @@
   - Jason Dowling
   - Bevan Koopman
   publisher: arXiv
-  date: '2024-06-21'
+  date: '2024-12-17'
   link: https://arxiv.org/abs/2406.13181
   arvin: true
   bevan: true
@@ -5128,7 +5128,7 @@
   publisher: Proceedings of the 42nd International ACM SIGIR Conference on Research
     and Development in Information Retrieval
   date: '2019-07-18'
-  link: https://doi.org/10.1145/3331184.3331194
+  link: https://dl.acm.org/doi/10.1145/3331184.3331194
   jimmy: true
   guido: true
   bevan: true
